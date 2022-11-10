@@ -1,0 +1,21 @@
+{
+  "name": "ravenitsystems/httpmessages",
+  "description": "Psr7 Implementation",
+  "type": "library",
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "authors": [
+    {
+      "name": "Nicholas Ashley",
+      "email": "ravenitsystems@outlook.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "ravenitsystems\\httpmessages\\": "src/"
+    }
+  },
+  "require": {
+    "psr/http-message": "1.*"
+  }
+}
